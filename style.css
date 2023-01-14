@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.fullbody{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+/* nabvar styles */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+
+
+/* header styles  */
+
+header{
+    display: flex;
+    margin-top:80px;
+    justify-content: center;
+    
+   
+
+    
+
+}
+
+.head1{
+     margin-left: 10px;
+    margin-right: 65px;
+    
+    
+    
+}
+.head1 h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.head1 p{
+    margin-bottom: 30px;
+}
+.head2 img{
+    background: url(images/Circle\ design.svg);
+    margin-right: 150px;
+}
+.arrow{
+    display: flex;
+    width: 140px;
+    gap: 8px;
+    padding-top: 4px;
+    padding-left: 15px;
+    height: 30px;
+    background-color: rgb(188, 49, 130);
+    color: white;
+    border-radius: 20px;
+    
+}
+
+/* logo design  */
+
+.logos{
+    display:flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+/* main section srtyle */
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.see{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.see p{
+    padding: 10px;
+    color: rgb(188, 49, 130);;
+}
+
+.collection{
+    padding: 10px;
+    /* border: 0.1px solid gray; */
+    margin: 30px;
+    box-shadow: 10px 10px  20px 15px gray;
+    
+    border-radius: 7px;
+    
+}
+
+.join{
+    display: flex;
+    gap: 140px;
+    margin-top: 100px;
+}
+
+.arrow-2{
+    display: flex;
+    width: 100px;
+    gap: 8px;
+    padding-top: 4px;
+    padding-left: 15px;
+    height: 35px;
+    background-color: rgb(188, 49, 130);
+    color: white;
+    border-radius: 10px; 
+    margin-top: 35px;
+}
+.end{
+    margin-top: 40px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(11, 3, 49);
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding: 80px;
+    
+    
+}
+
+footer h2{
+    margin-top: 23px;
+}
+
+.information{
+    margin-right: 10px
+}
+
